@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;900&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400 !important;
+}
+.promotional-area {
+  background: rgb(255, 255, 56);
+  /* height: 30px; */
+}
+
+.learn-more {
+  background-color: #22b872 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.learn-more:hover {
+  transform: translateY(-2px);
+}
+
+.course-card {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.course-card:hover {
+  transform: scale(110%) rotate(-2deg);
+}
+
+.thick-border {
+  border-width: 6px !important;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.herocode {
+  /* transform: rotate(1deg); */
+  animation: float 6s ease-in-out infinite;
+}
+
+.footer-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  text-decoration-line: underline ;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0px, 0px) rotate(1.15deg);
+  }
+  50% {
+    /* transform: rotate(5deg); */
+    transform: translate(0px, -20px) rotate(-0.5deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(1.15deg);
+  }
+}
+
+.navbar-link {
+  color: #bbb !important;
+}
+
+.navbar-link:hover {
+  color: #eee !important;
+}
